@@ -1,0 +1,91 @@
+﻿<style>
+
+    body{
+    font-size: 16px;
+
+}
+section{
+    width: 1500px;
+    max-width: 70%;
+    margin: 0px auto;
+}
+#container{
+    width: 1400px;
+}
+.box{
+    border: 3px solid black; 
+    max-width: 50px;
+    max-height: 50px; 
+    padding: 10px;
+    line-height: 50px; 
+    text-align: center; 
+    font-size: 1.63em;
+
+color: white;
+
+  
+
+  animation-name: example;
+  animation-duration: 7s;
+
+position: relative;
+   animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0%   {background-color:Purple; left:0px; top:0px;}
+  25%  {background-color:2FD7B0; left:200px; top:0px;}
+  50%   {background-color:feal; left:0px; top:0px;}
+  75%  {background-color:teal; left:0px; top:200px;}
+  100%{background-color:green; left:200px; top:200px;}
+}
+
+
+#panelOne{
+    float: left; 
+}
+
+#panelTwo{
+    float: left; 
+    position: relative; 
+    top: 75px; 
+}
+
+.panelThree{
+    float: left; 
+    position: relative; 
+    top: 225px; 
+}
+
+.panelFour{
+    float: left; 
+    position: relative; 
+    top: 75px; 
+}
+
+#container{ 
+display: flex;
+display: grid;
+grid-template-columns: repeat(17,auto) 1fr;
+width; 90%;
+margin: 0 auto;
+max-width: 100%;
+
+}
+
+#panelFive{
+    float: left; 
+}
+
+#lowerContainer{
+    float: left; 
+    margin-top: 20px;
+}
+
+.bottom{
+    float: left; 
+}
+
+</style>
